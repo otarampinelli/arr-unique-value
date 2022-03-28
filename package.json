@@ -1,0 +1,11 @@
+{
+  "name": "array-unique-value",
+  "version": "1.0.0",
+  "description": "Return only unique values from an array, removing all repeated values",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Otavio Rampinelli <otaviorampinellielias@gmail.com>",
+  "license": "MIT"
+}
