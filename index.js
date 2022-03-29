@@ -1,10 +1,10 @@
 "use strict";
 
-module.export = function uniqueValue(value) {
+module.exports = function uniqueValue(value) {
   const arr = [];
 
-  if (typeof value == 'number' || typeof value == 'sting' || Object.getPrototypeOf(value) === Object.prototype) {
-      throw new Error('Value must be an array')
+  if (typeof value == 'number' || typeof value == 'string' || Object.getPrototypeOf(value) === Object.prototype) {
+      throw new Error('Must be an array')
   }
 
   value.forEach((el) => {
@@ -18,3 +18,4 @@ module.export = function uniqueValue(value) {
 
   return [...new Set(arr)];
 };
+
